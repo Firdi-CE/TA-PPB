@@ -12,19 +12,19 @@ export default function ProfilePage() {
             <div>
               <h2 className="text-sm font-medium text-gray-500">Nama</h2>
               <p className="text-lg font-semibold text-gray-800">
-                [Isi Nama Lengkap Anda]
+                [Muhammad Alam Firdaus]
               </p>
             </div>
             <div>
               <h2 className="text-sm font-medium text-gray-500">NIM</h2>
               <p className="text-lg font-semibold text-gray-800">
-                [Isi NIM Anda]
+                [21120119140147]
               </p>
             </div>
             <div>
               <h2 className="text-sm font-medium text-gray-500">Kelompok</h2>
               <p className="text-lg font-semibold text-gray-800">
-                [Isi Kelompok Responsi Anda]
+                [Kelompok 26]
               </p>
             </div>
           </div>

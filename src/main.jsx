@@ -24,16 +24,16 @@ function AppRoot() {
   };
 
 
-  const renderCurrentPage = () => {
+ const renderCurrentPage = () => {
     switch (currentPage) {
       case 'home':
-        return <HomePage />;
+        return <HomePage onNavigate={handleNavigation} />;
       case 'projects':
         return <ProjectsPage />;
       case 'profile':
         return <ProfilePage />;
       default:
-        return <HomePage />;
+        return <HomePage onNavigate={handleNavigation} />;
     }
   };
 

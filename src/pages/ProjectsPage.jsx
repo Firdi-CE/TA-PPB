@@ -1,5 +1,5 @@
 import React from 'react';
-import { staticProjects } from '../data/project.js'; // Pastikan ini menunjuk ke file yang benar
+import { staticProjects } from '../data/projects.js'; 
 
 export default function ProjectsPage() {
   return (
